@@ -16,23 +16,27 @@ function App() {
 
   return (
     <div className="container">
-      <h2>Login</h2>
-      <input
-        type="text"
-        placeholder="Usuário"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-      />
-      <input
-        type="password"
-        placeholder="Senha"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-      />
-      <button onClick={handleLogin}>Entrar</button>
-      <p>{message}</p>
+      <h1>Vivi's Git Project</h1>
+      <div className="login-box">
+        <h2>Login</h2>
+        <input
+          type="text"
+          placeholder="Usuário"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+        />
+        <input
+          type="password"
+          placeholder="Senha"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <button onClick={handleLogin}>Acessar</button>
+        <p>{message}</p>
+      </div>
     </div>
   );
 }
 
 export default App;
+
