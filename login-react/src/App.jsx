@@ -32,7 +32,12 @@ function App() {
           onChange={(e) => setPassword(e.target.value)}
         />
         <button onClick={handleLogin}>Acessar</button>
-        <p>{message}</p>
+        {message && (
+  <p style={{ color: message.includes('✅') ? 'green' : 'red' }}>
+    {message}
+  </p>
+)}
+
       </div>
     </div>
   );
