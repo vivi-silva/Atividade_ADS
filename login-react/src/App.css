@@ -40,7 +40,7 @@ input {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #7e57c2;
+  background-color: #5e35b1; /* cor diferente do roxo anterior */
   color: white;
   border: none;
   border-radius: 5px;
