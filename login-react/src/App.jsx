@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Vivi's Git Project</h1>
+      <h1>Login Project</h1>
       <div className="login-box">
         <h2>Login</h2>
         <input
